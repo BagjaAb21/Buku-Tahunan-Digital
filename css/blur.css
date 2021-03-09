@@ -1,0 +1,66 @@
+#container, #box-bg {
+  background-image: url('assets/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: 1500px auto;
+}
+
+#container {
+  background-position: center;
+  padding: 70px 90px 120px 90px;
+}
+
+#box-container {
+  position: relative;
+}
+
+#box-bg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  background-position: center;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+#box {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  background: rgb(193, 192, 192);
+  background: rgba(119, 119, 119, 0.34);
+}
+
+#box h1, #box h1 a, #box h3, #box h4 a { 
+  text-align: center; 
+  color: #7d1919; 
+  font-weight: bold;
+}
+
+#box h3 {
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+#box h1 { 
+  margin-bottom: 10px;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+#box h3 { 
+  margin-top: 10px; 
+  text-transform: uppercase;
+}
+
+#box a {
+  text-decoration: none;
+}
+
+#box a:hover {
+  color: #ffffff;
+}
